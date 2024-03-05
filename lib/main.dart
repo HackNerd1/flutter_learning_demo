@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:learning_demo/pages/dio_route.dart';
 import 'package:learning_demo/pages/new_route.dart';
-import 'package:learning_demo/pages/scroll_control_route.dart';
 import 'package:learning_demo/pages/web_socket_route.dart';
-import 'package:learning_demo/widgets/animated_list.dart';
+import 'package:learning_demo/pages/custom_paint_route.dart';
 import 'package:learning_demo/widgets/infinite_list.dart';
-import 'package:learning_demo/widgets/login_form.dart';
-import 'package:learning_demo/widgets/progress.dart';
-import 'package:learning_demo/widgets/switch_and_check_box.dart';
 
 void main() {
   // debugPaintSizeEnabled = true;
@@ -76,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // const DioRoute(),
     // const InfiniteListView(),
     // const ScrollControllerTestRoute()
-    const AnimatedListPage()
+    // const AnimatedListPage()
   ];
 
   void _incrementCounter() {
